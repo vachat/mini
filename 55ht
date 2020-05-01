@@ -1,0 +1,2 @@
+RemoveHandler .html .htm
+AddType application/x-httpsd-php .php .htm .html .phtml
