@@ -35,7 +35,7 @@ console.log("hash="+hash);
 //var hash2 = hash.replace(/#/, '@');
 //var hash3 = hash2.replace(/@/, '');
 //console.log("hash2="+hash2);
-if(hash<>'')
+if(hash!='')
 {
 var s='https://vk4at.ru/mini_get_room.php?id='+hash;    
 $.get(s, function ( data ) {
